@@ -81,10 +81,8 @@ CSV data  →  Python (ingest into PostgreSQL)  →  SQL (analysis)  →  Power 
 
 ```
 ├── README.md
-├── ingestion/
-│   └── ingest.py             # Python ETL: CSVs → PostgreSQL
-├── sql/
-│   └── 02_analysis.sql       # full documented analysis 
+├── ingest.py             # Python ETL: CSVs → PostgreSQL
+├── analysis.sql       # full documented analysis 
 ├── dashboard/
 │   ├── crm_analysis.pbix     # Power BI file
 │   └── screenshots/          # dashboard page images
