@@ -68,7 +68,7 @@ CSV data  →  Python (ingest into PostgreSQL)  →  SQL (analysis)  →  Power 
 1. **Ingestion (Python):** A reusable script loads raw CSVs into PostgreSQL with logging, per-table error handling, and row-count verification.
 2. **Schema (SQL):** Correct data types, primary keys, and foreign keys applied to build a proper relational model.
 3. **Analysis (SQL):** Churn rate, MRR trend, Net Revenue Retention (via cohort analysis), and root-cause breakdowns using window functions (`LAG`), CTEs, and cohort logic.
-4. **Visualization (Power BI):** DAX measures recreate the SQL logic (NRR cross-validated in both — reconciling at ~58%), feeding an interactive 4-page dashboard.
+4. **Visualization (Power BI):** DAX measures recreate the SQL logic (NRR cross-validated in both, reconciling at ~58%), feeding an interactive 4-page dashboard.
 
 ---
 
