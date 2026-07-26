@@ -35,15 +35,15 @@ A 4-page interactive Power BI dashboard tells the story from problem to solution
 | **3. Churn Drivers** | Who leaves, why, and when |
 | **4. Recommendations** | Three prioritized actions |
 
-*Screenshots are in `/dashboard/screenshots/`.*
+*Screenshots are in `/dashboard_screenshots/`.*
 
 <!-- Add your screenshots inline like this once uploaded:
-![Executive Summary](dashboard/screenshots/page1_executive.png)
-![Retention Analysis](dashboard/screenshots/page2_retention.png)
-![Churn Drivers](dashboard/screenshots/page3_churn_drivers.png)
-![Recommendations](dashboard/screenshots/page4_recommendations.png)
+![Executive Summary](dashboard_screenshots/page1_executive.png)
+![Retention Analysis](dashboard_screenshots/page2_retention.png)
+![Churn Drivers](dashboard_screenshots/page3_churn_drivers.png)
+![Recommendations](dashboard_screenshots/page4_recommendations.png)
 -->
-
+Download the power bi file from here - https://drive.google.com/file/d/1K0x2lmWF1x74KesSwD3ScQfith2KT-JE/view?usp=sharing
 ---
 
 ## Recommendations
