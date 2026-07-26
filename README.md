@@ -37,13 +37,16 @@ A 4-page interactive Power BI dashboard tells the story from problem to solution
 
 *Screenshots are in `/dashboard_screenshots/`.*
 
-<!-- Add your screenshots inline like this once uploaded:
 ![Executive Summary](dashboard_screenshots/page1_executive.png)
+
 ![Retention Analysis](dashboard_screenshots/page2_retention.png)
+
 ![Churn Drivers](dashboard_screenshots/page3_churn_drivers.png)
+
 ![Recommendations](dashboard_screenshots/page4_recommendations.png)
--->
+
 Download the power bi file from here - https://drive.google.com/file/d/1K0x2lmWF1x74KesSwD3ScQfith2KT-JE/view?usp=sharing
+
 ---
 
 ## Recommendations
@@ -81,14 +84,15 @@ CSV data  →  Python (ingest into PostgreSQL)  →  SQL (analysis)  →  Power 
 
 ```
 ├── README.md
-├── ingest.py             # Python ETL: CSVs → PostgreSQL
-├── analysis.sql       # full documented analysis 
-├── dashboard/
-│   ├── crm_analysis.pbix     # Power BI file
-│   └── screenshots/          # dashboard page images
-└── data/
-    ├── customers.csv
-    └── subscription_history.csv
+├── ingest.py                  # Python ETL: CSVs → PostgreSQL
+├── analysis.sql               # full documented analysis 
+├── dashboard_screenshots/     # dashboard page images
+    ├── page1_executive.png
+    ├── page2_retention.png
+    ├── page3_churn_drivers
+    ├── page4_recommendations
+└── data/                      # source files
+    ├── README.md
 ```
 
 ---
