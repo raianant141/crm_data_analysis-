@@ -89,8 +89,8 @@ CSV data  →  Python (ingest into PostgreSQL)  →  SQL (analysis)  →  Power 
 ├── dashboard_screenshots/     # dashboard page images
     ├── page1_executive.png
     ├── page2_retention.png
-    ├── page3_churn_drivers
-    ├── page4_recommendations
+    ├── page3_churn_drivers.png
+    ├── page4_recommendations.png
 └── data/                      # source files
     ├── README.md
 ```
