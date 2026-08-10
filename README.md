@@ -106,7 +106,6 @@ This project uses a **synthetic dataset**, so the findings demonstrate analytica
 - **MRR** counts each customer's fee in the month they were active, including their final paid month.
 - **NRR / cohort retention** follows each signup group over time, excluding new customers, to isolate how the existing base performs.
 - **30-day billing artifact:** Billing runs on 30-day cycles rather than calendar months, so a customer can occasionally have two payments fall in one calendar month. This causes some mid-cohort revenue-retention values to briefly exceed 100% in the heatmap. It is a data artifact, not real growth, the 12-month figure (~58%) is unaffected.
-- Only the two tables required for the analysis (`customers`, `subscription_history`) are included here.
 
 ---
 
